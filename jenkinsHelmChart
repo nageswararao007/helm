@@ -1,0 +1,12 @@
+#download  jenkins repository
+helm repo add jenkins https://charts.jenkins.io
+
+#update helm repo
+helm repo update
+
+#install jenkins using  helmchart
+helm install jenkins jenkins/jenkins 
+
+#list the repos
+Helm repo list
+
